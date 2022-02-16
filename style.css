@@ -1,0 +1,51 @@
+/*
+Theme name = mon theme
+Author = Aziz
+Description = mon theme personnalise 
+Version = 1.0
+Text Domain = montheme 
+*/
+
+body{
+    background-color: aliceblue;
+    font-family: 'Montserrat', sans-serif;
+}
+
+main{
+    height: 800px;
+}
+
+.bleu{
+    background-color: rgb(135, 135, 252);
+    /* la min-height est temporaire. Je n'ai pas de contenu pour l'instant, j'ai donc besoin de visualiser ma zone. Une fois le contenu injecté, c'est lui qui va gérer la height dont il a besoin. Je supprimerai la height à ce moment là */
+    min-height: 80px;
+}
+
+.rouge{
+    background-color: rgb(255, 157, 157);
+    min-height: 80px;
+}
+
+.vert{
+    background-color: rgb(156, 252, 156);
+    min-height: 80px;
+}
+
+.orange{
+    background-color: rgb(250, 221, 166);
+    min-height: 80px;
+}
+
+.violet{
+    background-color: rgb(253, 173, 253);
+    min-height: 80px;
+}
+
+.mon-logo {
+
+    float: left;
+}
+
+.mon-slogan {
+    float: left;
+}
